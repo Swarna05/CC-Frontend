@@ -1,0 +1,14 @@
+[
+    {
+        "response": [
+            {
+                "profession": "Testing",
+                "course": "cse"
+            },
+            {
+                "profession": "Designer",
+                "course": "ece"
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "subject_id": 123,
+        "subject": "Physics"
+    },
+    {
+        "subject_id": 234,
+        "subject": "Mathematics"
+    },
+    {
+        "subject_id": 345,
+        "subject": "Chemistry"
+    }
+]

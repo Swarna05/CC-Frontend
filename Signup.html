@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="Signup.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="container rounded bg-white mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-3 border-right">
+                <!-- <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"><span class="font-weight-bold">Edogaru</span><span class="text-black-50">abc123@mail.com</span><span> </span></div> -->
+            </div>
+            <div class="col-md-5 border-right">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text-right">Registration</h4>
+                    </div>
+                    <div class="row mt-2">
+
+
+<!-- <form>
+	<label for="username">Username</label>
+	<input type="text" name="username" required><br><br>
+    <label for="email">Email</label>
+    <input type="email" name="email" required><br><br>
+    <input type="submit" name="submit" value="submit">
+</form> -->
+                        <div class="col-md-6"><label  class="labels">Name</label><input type="text" id="name" class="form-control" placeholder="Enter Name Here" value="" required></div>
+                        <div class="col-md-6"><label class="labels">Contact Number</label><input type="number" id="num" class="form-control" value="" placeholder="Contact No." required></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12"><label class="labels">Password</label><input type="text" id="pass" class="form-control" placeholder="Enter Password" value="" required></div>
+                        <div class="col-md-12"><label class="labels">Pincode</label><input type="number" id="pin" class="form-control" placeholder="Enter Pincode" value="" required></div>
+                        <!-- <div class="col-md-12"><label class="labels">Em</label><input type="text" class="form-control" placeholder="Enter email id" value=""></div> -->
+                        
+                        <!-- new -->
+                        <div class="col-md-12">
+                            <label for="role" class="form-label">Role</label>
+                            <select id="role" class="form-select">
+                              <option selected>Choose...</option>
+                              <option>Student</option>
+                              <option>Teacher</option>
+                              <option>Parents</option>
+                            </select>
+                          </div>
+                          <div class="col-md-12">
+                            <label for="grade" class="form-label">Grade</label>
+                            <select id="grade" class="form-select">
+                              <option selected>Choose...</option>
+                              <option>Primary</option>
+                              <option>Secondary</option>
+                            </select>
+                          </div>
+                    </div>
+                    
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button" onclick=register()>Registar</button></div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-4">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center experience"><span>Preferences:-</span></div><br>
+                    <div class="col-md-12">
+                        <!-- <div class="dropdown">
+                        <a class="btn btn1 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Subject
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Mathematics</a></li>
+                        <li><a class="dropdown-item" href="#">Physics</a></li>
+                        <li><a class="dropdown-item" href="#">Computer</a></li>
+                        </ul>
+                    </div> -->
+                    <div>  
+                        <label>Select Stream :</label>  
+                    </div>
+                    <div id="div_source1">
+                        <select id="str" >
+                            
+                            <option value="select">Choose Stream</option>
+                           
+                        </select>
+                    </div>
+                </div> <br>
+                    <div class="col-md-12">
+                        <!-- <div class="dropdown">
+                        <a class="btn btn1 dropdown-toggle" href="" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Hobbies
+                        </a>
+                    
+                        <ul class="dropdown-menu" id="msg" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Drawing</a></li>
+                        <li><a class="dropdown-item" href="#">Sleeping</a></li>
+                        <li><a class="dropdown-item" href="#">Swimming</a></li>
+                        </ul>
+                    </div> -->
+                    <!-- <div>  
+                        <label>Select Hobbies :</label>  
+                    </div>
+                    <div id="div_source2">
+                        <select id="hob" >
+                            
+                            <option value="select">Choose Hobby</option>
+                           
+                        </select>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  <hr>
+  <div>
+    <ul class="msg">
+
+    </ul>
+   </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="Signup.js"></script>
+    <!-- <script src="startbootstrap-sb-admin-gh-pages/"></script> -->
+</body>
+</html>

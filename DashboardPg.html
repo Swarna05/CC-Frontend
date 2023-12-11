@@ -1,0 +1,471 @@
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="Dashboard.css" />
+<!------ Include the above in your HEAD tag ---------->
+<title>Profile</title>
+<body>
+   
+  <div class="container emp-profile">
+    <form method="post">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="profile-img">
+            <img src="mydp.jpg" alt="" />
+            <div class="file btn btn-lg btn-primary">
+              Change Photo
+              <input type="file" name="file" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="profile-head">
+            <h3>
+              <span id="profile_name"> Swarnadeep Pramanik </span>
+            </h3>
+            <figcaption class="blockquote-footer my-3">
+              You haven't complete quiz yet!
+              <a href="quiz_page.html"
+                ><button class="btn btn-primary btn-sm mx-2" type="button">
+                  Start Quiz
+                </button></a
+              >
+            </figcaption>
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <!-- <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a> -->
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Timeline</a> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div
+            class="d-flex flex-column flex-shrink-0 p-3 bg-light mx-5"
+            style="width: 239px"
+          >
+            <a
+              href="/"
+              class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+            >
+              <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+              <span class="fs-4"></span>
+            </a>
+            <hr />
+            <ul class="nav nav-pills flex-column mb-auto">
+              <li class="nav-item">
+                <a
+                  href="Home_page.html"
+                  class="nav-link active"
+                  aria-current="page"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    class="bi me-2"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+                    />
+                  </svg>
+                  <!-- <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg> -->
+                  Home
+                </a>
+              </li>
+
+              <hr />
+              <a
+                class="nav-link collapsed"
+                href="#"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseLayouts"
+                aria-expanded="false"
+                aria-controls="collapseLayouts"
+              >
+                <div class="sb-nav-link-icon">
+                  <i class="fas fa-columns"></i>
+                </div>
+                Famous Career Choices
+                <div class="sb-sidenav-collapse-arrow">
+                  <i class="fas fa-angle-down"></i>
+                </div>
+              </a>
+              <div
+                class="collapse"
+                id="collapseLayouts"
+                aria-labelledby="headingOne"
+                data-bs-parent="#sidenavAccordion"
+              >
+                <nav class="sb-sidenav-menu-nested nav">
+                  <a class="nav-link" href="layout-static.html"
+                    >Full Stack Developer</a
+                  >
+                  <a class="nav-link" href="layout-sidenav-light.html"
+                    >Data Scientist</a
+                  >
+                </nav>
+              </div>
+
+              <a
+                class="nav-link collapsed"
+                href="#"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseLayouts"
+                aria-expanded="false"
+                aria-controls="collapseLayouts"
+              >
+                <div class="sb-nav-link-icon">
+                  <i class="fas fa-columns"></i>
+                </div>
+                Treanding Career Choices
+                <div class="sb-sidenav-collapse-arrow">
+                  <i class="fas fa-angle-down"></i>
+                </div>
+              </a>
+              <div
+                class="collapse"
+                id="collapseLayouts"
+                aria-labelledby="headingOne"
+                data-bs-parent="#sidenavAccordion"
+              >
+                <nav class="sb-sidenav-menu-nested nav">
+                  <a class="nav-link" href="">Full Stack Developer</a>
+                  <a class="nav-link" href="">Data Scientist</a>
+                </nav>
+              </div>
+              <hr />
+
+              <li>
+                <a href="edit_profile.html" class="nav-link link-dark">
+                  <!-- <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg> -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    class="bi me-2"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"
+                    />
+                    <path
+                      d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"
+                    />
+                  </svg>
+                  Update Profile
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="nav-link link-dark">
+                  <!-- <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg> -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    class="bi me-2"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"
+                    />
+                  </svg>
+                  Log out
+                </a>
+              </li>
+
+              <!-- <li>
+                            <a href="#" class="nav-link link-dark">
+                              <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                              Orders
+                            </a>
+                          </li> -->
+              <li>
+                <!-- <a href="#" class="nav-link link-dark">
+                              <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                              Products
+                            </a> -->
+              </li>
+              <li>
+                <!-- <a href="#" class="nav-link link-dark">
+                              <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                              Customers
+                            </a> -->
+              </li>
+            </ul>
+            <hr />
+            <!-- <div class="dropdown">
+                          <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                            <strong>mdo</strong>
+                          </a>
+                          <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                            <li><a class="dropdown-item" href="#">New project...</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                          </ul>
+                        </div> -->
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="tab-content profile-tab" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+            >
+              <!-- new -->
+              <div class="album py-5 bg-light">
+                <div class="container">
+                  <h5>Career Recommendation</h5>
+
+                  <div class="card mb-8" id="cad" style="width: auto">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="card">
+                          <div class="card-body" style="height: 150px">
+                            <h5 class="card-title">Remarks</h5>
+                            <hr />
+                            <!-- <u> <p class="card-text">Profession</p></u> -->
+                            <div id="remark"></div>
+
+                            <!-- <u> <p class="card-text">Course</p></u> 
+                                                <div id="cou"></div> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="card">
+                          <div class="card-body" style="height: 150px">
+                            <h5 class="card-title">Suitable Role</h5>
+                            <hr />
+                            <!-- <u> <p class="card-text">Profession</p></u> -->
+                            <div id="suggestedrole"></div>
+
+                            <!-- <u> <p class="card-text">Course</p></u> 
+                                                <div id="cou2"></div> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <!--   <h5> College Recommendation</h>
+
+
+                                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 my-1">
+
+                                            <div class="col">
+                                                <div class="card shadow-sm">
+                                                    <svg class="bd-placeholder-img card-img-top" width="100%"
+                                                        height="120" xmlns="http://www.w3.org/2000/svg" role="img"
+                                                        aria-label="Placeholder: Thumbnail"
+                                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                                        <title>Placeholder</title>
+                                                        <rect width="100%" height="100%" fill="#55595c"></rect><text
+                                                            x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                                                    </svg>
+
+                                                    <div class="card-body">
+                                                        <p class="card-text">This .</p>
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div class="btn-group">
+                                                                <button type="button"
+                                                                    class="btn btn-sm btn-outline-secondary">View</button>
+                                                                <button type="button"
+                                                                    class="btn btn-sm btn-outline-secondary">Edit</button>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card shadow-sm">
+                                                    <svg class="bd-placeholder-img card-img-top" width="100%"
+                                                        height="120" xmlns="http://www.w3.org/2000/svg" role="img"
+                                                        aria-label="Placeholder: Thumbnail"
+                                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                                        <title>Placeholder</title>
+                                                        <rect width="100%" height="100%" fill="#55595c"></rect><text
+                                                            x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                                                    </svg>
+
+                                                    <div class="card-body">
+                                                        <p class="card-text">This .</p>
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div class="btn-group">
+                                                                <button type="button"
+                                                                    class="btn btn-sm btn-outline-secondary">View</button>
+                                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card shadow-sm">
+                                                    <svg class="bd-placeholder-img card-img-top" width="100%"
+                                                        height="120" xmlns="http://www.w3.org/2000/svg" role="img"
+                                                        aria-label="Placeholder: Thumbnail"
+                                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                                        <title>Placeholder</title>
+                                                        <rect width="100%" height="100%" fill="#55595c"></rect><text
+                                                            x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                                                    </svg>
+
+                                                    <div class="card-body">
+                                                        <p class="card-text">This .</p>
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div class="btn-group">
+                                                                <button type="button"
+                                                                    class="btn btn-sm btn-outline-secondary">View</button>
+
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                </div>
+              </div>
+              <!-- <div class="row">
+                                        <div class="col-md-6">
+                                            <label>User Id</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Kshiti123</p>
+                                        </div>
+                                    </div> -->
+              <!-- <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Name</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Kshiti Ghelani</p>
+                                        </div>
+                                    </div> -->
+              <!-- <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Email</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>kshitighelani@gmail.com</p>
+                                        </div>
+                                    </div> -->
+              <!-- <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Phone</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>123 456 7890</p>
+                                        </div>
+                                    </div> -->
+              <!-- <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Profession</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Web Developer and Designer</p>
+                                        </div>
+                                    </div> -->
+            </div>
+            <div
+              class="tab-pane fade"
+              id="profile"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <label>Experience</label>
+                </div>
+                <div class="col-md-6">
+                  <p>Expert</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label>Hourly Rate</label>
+                </div>
+                <div class="col-md-6">
+                  <p>10$/hr</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label>Total Projects</label>
+                </div>
+                <div class="col-md-6">
+                  <p>230</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label>English Level</label>
+                </div>
+                <div class="col-md-6">
+                  <p>Expert</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label>Availability</label>
+                </div>
+                <div class="col-md-6">
+                  <p>6 months</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <label>Your Bio</label><br />
+                  <p>Your detail description</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="js/bootstrap.js"></script>
+  <script src="DashboardPg.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</body>
